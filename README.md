@@ -2,6 +2,15 @@
 
 My config of zshrc. Easy to install and easy to maintain. For power user, you can just write your own zshrc and use this as a template.
 
+## Installation
+
+You can simply install this module by running:
+
+```
+git clone --recurse-submodules https://github.com/tecty/zshrc.git
+cd zshrc && ./install.sh
+```
+
 ## Alias Support
 
 You can add some alias to 'alias.local', such as
