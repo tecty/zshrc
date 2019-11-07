@@ -1,3 +1,7 @@
+
+# binary files, .local/bin is for thefuck support
+export PATH=$HOME/bin:$HOME/.local/bin:$PATH 
+
 # Load the oh-my-zsh's library
 antigen use oh-my-zsh
 
@@ -33,8 +37,6 @@ zstyle :prompt:pure:path color white
 zstyle ':prompt:pure:prompt:*' color cyan
 
 
-#path include the python3's bin
-export PATH=$HOME/bin:$HOME/.local/bin:$PATH 
 
 # the fuck support
 eval $(thefuck --alias) 
