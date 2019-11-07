@@ -16,7 +16,6 @@ antigen bundle extract
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
-antigen bundle zsh-users/zsh-syntax-highlighting
 
 #pure zsh support
 antigen bundle mafredri/zsh-async
@@ -34,8 +33,6 @@ PURE_PROMPT_SYMBOL=">"
 zstyle :prompt:pure:path color white
 # change the color for both `prompt:success` and `prompt:error`
 zstyle ':prompt:pure:prompt:*' color cyan
-
-
 
 # some alias that helps 
 alias gpa="ga . && gca && gp"
