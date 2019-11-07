@@ -32,5 +32,11 @@ zstyle :prompt:pure:path color white
 # change the color for both `prompt:success` and `prompt:error`
 zstyle ':prompt:pure:prompt:*' color cyan
 
+
+#path include the python3's bin
+export PATH=$HOME/bin:$HOME/.local/bin:$PATH 
+
+# the fuck support
+eval $(thefuck --alias) 
 # some alias that helps 
 alias gpa="ga . && gca && gp"
