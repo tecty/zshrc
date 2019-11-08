@@ -10,7 +10,7 @@ ln zshrc.local ~/.zshrc
 chmod 644 zshrc.local
 
 # install the fuck 
-pip install --user thefuck 
+pip3 install --user thefuck 
 
 # install autojump 
 git clone git://github.com/wting/autojump.git
